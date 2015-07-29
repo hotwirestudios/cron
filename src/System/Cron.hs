@@ -41,7 +41,8 @@ module System.Cron (CronSchedule(..),
                     weekly,
                     hourly,
                     everyMinute,
-                    scheduleMatches) where
+                    scheduleMatches,
+                    showRaw) where
 
 import           Data.List                   (intercalate)
 
